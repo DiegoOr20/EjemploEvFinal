@@ -5,20 +5,20 @@ class TestExample(unittest.TestCase):
 
     def test_es_positivo(self):
         print("Ejecutando prueba para es_positivo(5)...")
-        self.assertTrue(es_positivo(5))   # Cobertura de sentencia para la rama True
+        self.assertTrue(es_positivo(5))  
         print("Prueba para es_positivo(5) completada.")
         
         print("Ejecutando prueba para es_positivo(-5)...")
-        self.assertFalse(es_positivo(-5))  # Cobertura de sentencia para la rama False
+        self.assertFalse(es_positivo(-5))  
         print("Prueba para es_positivo(-5) completada.")
 
     def test_es_par(self):
         print("Ejecutando prueba para es_par(2)...")
-        self.assertTrue(es_par(2))     # Cobertura de sentencia para la rama True
+        self.assertTrue(es_par(2))     
         print("Prueba para es_par(2) completada.")
         
         print("Ejecutando prueba para es_par(3)...")
-        self.assertFalse(es_par(3))    # Cobertura de sentencia para la rama False
+        self.assertFalse(es_par(3))    
         print("Prueba para es_par(3) completada.")
 
 if __name__ == '__main__':
